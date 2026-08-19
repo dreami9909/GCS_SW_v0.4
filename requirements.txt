@@ -1,9 +1,0 @@
-# Qt 3D PLAN milestone.
-PySide6==6.11.1
-openpyxl>=3.1,<4
-numpy>=1.26,<3
-
-# The legacy Tkinter UI remains available through main.py.
-# Planned integrations:
-# pymavlink>=2.4
-# pyserial>=3.5
