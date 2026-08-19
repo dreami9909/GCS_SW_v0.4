@@ -1,0 +1,107 @@
+{
+  "format": "python-gcs-mission-plan",
+  "version": 2,
+  "sites": [
+    {
+      "latitude": 36.677450692361894,
+      "longitude": 126.17613532305842,
+      "altitude_m": 35.933419410873725,
+      "code": "GCS",
+      "label": "Ground Control Station"
+    },
+    {
+      "latitude": 36.679086849611565,
+      "longitude": 126.16841108538839,
+      "altitude_m": 41.127799430170185,
+      "code": "RDR",
+      "label": "Radar"
+    },
+    {
+      "latitude": 36.67740326540611,
+      "longitude": 126.1764635366831,
+      "altitude_m": 38.775945106899485,
+      "code": "LC",
+      "label": "Launcher"
+    }
+  ],
+  "waypoints": [
+    {
+      "latitude": 36.675368061154636,
+      "longitude": 126.16435066035646,
+      "altitude_m": 60.0,
+      "code": "WP001",
+      "label": "Waypoint 1",
+      "point_type": "WAYPOINT",
+      "sequence": 1
+    },
+    {
+      "latitude": 36.6647298420744,
+      "longitude": 126.15252324638118,
+      "altitude_m": 60.0,
+      "code": "WP002",
+      "label": "Waypoint 2",
+      "point_type": "WAYPOINT",
+      "sequence": 2
+    },
+    {
+      "latitude": 36.647057966863215,
+      "longitude": 126.17820390967186,
+      "altitude_m": 60.0,
+      "code": "WP003",
+      "label": "Waypoint 3",
+      "point_type": "WAYPOINT",
+      "sequence": 3
+    },
+    {
+      "latitude": 36.664191177817294,
+      "longitude": 126.21457954389483,
+      "altitude_m": 60.0,
+      "code": "WP004",
+      "label": "Waypoint 4",
+      "point_type": "WAYPOINT",
+      "sequence": 4
+    },
+    {
+      "latitude": 36.67761858952193,
+      "longitude": 126.20180544859565,
+      "altitude_m": 60.0,
+      "code": "WP005",
+      "label": "Waypoint 5",
+      "point_type": "WAYPOINT",
+      "sequence": 5
+    }
+  ],
+  "return_point": {
+    "latitude": 36.67760600016676,
+    "longitude": 126.17731760083555,
+    "altitude_m": 30.0,
+    "code": "RTB",
+    "label": "Return Point",
+    "point_type": "RETURN",
+    "sequence": 0
+  },
+  "zones": [
+    {
+      "code": "SAFE01",
+      "label": "Safe Zone 1",
+      "zone_type": "SAFE",
+      "vertices": [
+        {
+          "latitude": 36.64845467987336,
+          "longitude": 126.13625727082173,
+          "altitude_m": 0.0
+        },
+        {
+          "latitude": 36.63864673633528,
+          "longitude": 126.23634985251557,
+          "altitude_m": 0.0
+        },
+        {
+          "latitude": 36.602839794233894,
+          "longitude": 126.203013432549,
+          "altitude_m": 0.0
+        }
+      ]
+    }
+  ]
+}
